@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/gokultp/node-document-store/issues"
   },
-  "homepage": "https://github.com/gokultp/node-document-store#readme"
+  "homepage": "https://github.com/gokultp/node-document-store#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-strongloop": "^2.1.0"
+  }
 }
