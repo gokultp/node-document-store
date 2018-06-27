@@ -1,7 +1,7 @@
 {
   "name": "document-store",
   "version": "1.0.0",
-  "description": "A\\ node.js\\ library\\ for\\ managing\\ document\\ stores",
+  "description": "A node.js library for managing document stores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
