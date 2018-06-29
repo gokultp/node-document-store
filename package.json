@@ -4,7 +4,7 @@
   "description": "A node.js library for managing document stores",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/gokultp/node-document-store#readme",
   "devDependencies": {
-    "eslint": "^5.0.1",
-    "eslint-config-strongloop": "^2.1.0"
+    "mocha": "^5.2.0"
   }
 }
