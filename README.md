@@ -57,6 +57,9 @@ docstore.listDocuments().then(files=>{
     
 ```
 
+see complete api documentation [here](docs.md)
+
+
 The library can be enhanced with more strategies.
 
 ## License
