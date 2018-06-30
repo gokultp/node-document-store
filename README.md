@@ -22,7 +22,7 @@ TODO
 
 [npm-image]: https://img.shields.io/npm/v/live-xxx.svg
 [npm-url]: https://npmjs.org/package/live-xxx
-[travis-image]: https://img.shields.io/travis/live-js/live-xxx/master.svg
-[travis-url]: https://travis-ci.org/live-js/live-xxx
+[travis-image]: https://travis-ci.org/gokultp/node-document-store.svg?branch=master
+[travis-url]: https://travis-ci.org/gokultp/node-document-store
 [coveralls-image]: https://img.shields.io/coveralls/live-js/live-xxx/master.svg
 [coveralls-url]: https://coveralls.io/r/live-js/live-xxx?branch=master
