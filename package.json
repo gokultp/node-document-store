@@ -24,5 +24,8 @@
   "homepage": "https://github.com/gokultp/node-document-store#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.266.1"
   }
 }
