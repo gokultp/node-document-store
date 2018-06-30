@@ -16,7 +16,7 @@
     "object-storage",
     "azure"
   ],
-  "author": "tp.gokul@gmail.com",
+  "author": "gokul@saasgrids.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gokultp/node-document-store/issues"

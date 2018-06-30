@@ -9,12 +9,55 @@
 ## Install
 
 ```bash
-npm i -S live-xxx
+#not published to npm yet
+git clone https://github.com/gokultp/node-document-store
+npm link document-store
+
 ```
 
 ## Usage
 
-TODO
+### Example for S3 strategy
+
+```javascript
+const SECRET    = process.env.SECRET;
+const ACCESS_ID = process.env.ACCESS;
+const docstore = require('../index').docstore;
+const FileTypes = require('../index').FileTypes;
+const S3Strategy = require('../index').S3Strategy;
+docstore.use(new S3Strategy({accessKeyId : ACCESS_ID, secretAccessKey: SECRET, bucket: 'bucket'}));
+
+//listing documents
+docstore.listDocuments().then(files=>{
+    console.log(files)
+}).catch(err=>{
+    console.log(err);
+})
+
+    
+```
+
+### Example for Local strategy
+
+```javascript
+const SECRET    = process.env.SECRET;
+const ACCESS_ID = process.env.ACCESS;
+const docstore = require('../index').docstore;
+const FileTypes = require('../index').FileTypes;
+const LocalStrategy = require('../index').LocalStrategy;
+docstore.use(new LocalStrategy({rootDir: './temp'}));
+
+//listing documents
+docstore.listDocuments().then(files=>{
+    console.log(files)
+}).catch(err=>{
+    console.log(err);
+})
+
+    
+```
+
+The library can be enhanced with more strategies.
 
 ## License
 
