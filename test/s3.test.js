@@ -1,5 +1,5 @@
-const SECRET    = '8qMC3RDq9NElFOwDBNmz2X/mv4KrmvCPjzjhDC0o';
-const ACCESS_ID = 'AKIAIEOZMYUCIVDLFIOA';
+const SECRET    = process.env.SECRET;
+const ACCESS_ID = process.env.ACCESS;
 
 var assert = require('assert');
 const docstore = require('../index').docstore;
